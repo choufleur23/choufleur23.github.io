@@ -249,6 +249,12 @@ main.content {
   text-transform: uppercase;
 }
 
+.poster-image {
+  width: 100%;
+  max-width: 360px;
+  margin-bottom: 20px;
+}
+
 .back-link {
   display: inline-block;
   margin-bottom: 24px;
@@ -333,6 +339,46 @@ main.content {
 .research-item h2 {
   font-size: 1.2rem;
   margin: 0 0 8px;
+}
+
+.research-item p {
+  margin: 0 0 12px;
+}
+
+.research-item .label {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  margin-right: 6px;
+}
+
+.keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 4px 0 12px;
+}
+
+.keywords li {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 2px 10px;
+  color: var(--muted);
+}
+
+.teaching-item ul {
+  margin: 8px 0 0;
+  padding-left: 1.2em;
+}
+
+.teaching-item li {
+  margin-bottom: 6px;
 }
 
 .research-item .status {
